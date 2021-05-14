@@ -24,6 +24,12 @@
     "url": "https://github.com/beenotung/csv-to-markdown/issues"
   },
   "homepage": "https://github.com/beenotung/csv-to-markdown#readme",
+  "bin": {
+    "csv-to-markdown": "csv-to-markdown.js",
+    "tsv-to-markdown": "tsv-to-markdown.js",
+    "csv-to-tsv": "csv-to-tsv.js",
+    "tsv-to-csv": "tsv-to-csv.js"
+  },
   "scripts": {
     "build": "tsc",
     "test": "tsc --noEmit",
