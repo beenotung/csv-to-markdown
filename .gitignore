@@ -5,5 +5,4 @@ node_modules/
 tsconfig.tsbuildinfo
 .env
 *.tgz
-csv-to-markdown.js
-tsv-to-markdown.js
+*-to-*.js

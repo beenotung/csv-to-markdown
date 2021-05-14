@@ -9,6 +9,16 @@ csv: Comma-separated values
 
 tsv: Tab-separated values
 
+markdown: the markup language used in README.md on github, gitlab, bitbucket, e.t.c.
+
+## cli tools
+- [x] csv-to-markdown
+- [x] tsv-to-markdown
+- [x] csv-to-tsv
+- [x] tsv-to-csv
+- [ ] markdown-to-csv
+- [ ] markdown-to-tsv
+
 ## Installation
 ```bash
 > npm i -g csv-to-markdown
