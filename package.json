@@ -1,8 +1,29 @@
 {
   "name": "csv-to-markdown",
   "version": "1.0.1",
-  "description": "",
-  "main": "index.js",
+  "description": "cli tools to convert csv and tsc data into markdown table",
+  "keywords": [
+    "cli",
+    "bin",
+    "csv-to-markdown",
+    "tsv-to-markdown",
+    "csv-to-tsv",
+    "tsv-to-csv"
+  ],
+  "author": {
+    "name": "Beeno Tung",
+    "email": "aabbcc1241@yahoo.com.hk",
+    "url": "https://beeno-tung.surge.sh"
+  },
+  "license": "BSD-2-Clause",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/beenotung/csv-to-markdown.git"
+  },
+  "bugs": {
+    "url": "https://github.com/beenotung/csv-to-markdown/issues"
+  },
+  "homepage": "https://github.com/beenotung/csv-to-markdown#readme",
   "scripts": {
     "build": "tsc",
     "test": "tsc --noEmit",
@@ -11,17 +32,6 @@
     "format:json": "format-json-cli",
     "format:eslint": "eslint --fix --ext .ts ."
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/beenotung/csv-to-markdown.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/beenotung/csv-to-markdown/issues"
-  },
-  "homepage": "https://github.com/beenotung/csv-to-markdown#readme",
   "dependencies": {
     "@beenotung/tslib": "^17.3.0"
   },
