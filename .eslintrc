@@ -12,13 +12,13 @@
     "curly": ["error", "multi-line"],
     "guard-for-in": "error",
     "no-console": [
-      "error",
+      "off",
       {
         "allow": ["warn", "debug", "error"]
       }
     ],
     "no-var": "error",
-    "prefer-const": "error",
+    "prefer-const": "warn",
     "no-duplicate-imports": "off",
     "@typescript-eslint/no-duplicate-imports": ["error"],
     "@typescript-eslint/explicit-module-boundary-types": "off",
