@@ -4,3 +4,6 @@ node_modules/
 .pnpm-debug.log
 tsconfig.tsbuildinfo
 .env
+*.tgz
+csv-to-markdown.js
+tsv-to-markdown.js

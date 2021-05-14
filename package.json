@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "test": "tsc --noEmit",
     "format": "run-s format:*",
     "format:prettier": "prettier --write .",
     "format:json": "format-json-cli",
